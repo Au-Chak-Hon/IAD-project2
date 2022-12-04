@@ -166,7 +166,7 @@ export default {
   },
   created() {
     const that = this;
-    const url = "static/music.json";
+    const url = "../assets/music.json";
 
     //读取数据
     axios.get(url).then(function(resp) {

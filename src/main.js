@@ -14,6 +14,7 @@ Vue.prototype.$ajax = axios;
 Vue.prototype.$echarts = echarts;
 Vue.config.productionTip = false;
 
+Vue.use(router);
 Vue.use(gifshot);
 Vue.use(ElementUI);
 Vue.use(BaiduMap, {
